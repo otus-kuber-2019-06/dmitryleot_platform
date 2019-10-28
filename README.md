@@ -26,7 +26,7 @@ dmitryleot Platform repository
  - при помощи форвард порта либо локально с mikikube curl. Например: port-forward pod/web 8080:8080
 
 ## Как проверить работоспособность:
- - Перейти по ссылке http://localhost:8080
+ - Перейти по ссылке http://localhost:8000
 
 ## PR checklist:
  - [ ] Выставлен label с номером домашнего задания
