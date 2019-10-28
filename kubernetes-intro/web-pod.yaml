@@ -7,10 +7,6 @@ metadata:
 spec:
   containers:
   - name: web
-    image: dmitryleot/nginx:first
-    readinessProbe:
-      tcpSocket:
-        port: 8000
     volumeMounts:
       - name: app
         mountPath: /app
