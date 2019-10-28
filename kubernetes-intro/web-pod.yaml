@@ -10,7 +10,7 @@ spec:
     image: dmitryleot/nginx:first
     readinessProbe:
       tcpSocket:
-        port: 8080
+        port: 8000
     volumeMounts:
       - name: app
         mountPath: /app
