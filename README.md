@@ -32,3 +32,13 @@ dmitryleot Platform repository
  - [ ] Выставлен label с номером домашнего задания
  - [ ] Добавлены необходимые файлы для первого ПР
  - [ ] Указан Assignees
+
+# Выполнено ДЗ №2
+ - Создал SA bob и ClusterRoleBinding для bob к ClusterRole Admin
+ - Добавил SA dave
+ - Создал ns prometheus
+ - Создал SA carol, ClusterRole "clusterview" ClusterRoleBinding "clusterview" для SA в NS prometheus
+ - Создал NS "dev"
+ - создал SA "jane" namespace "dev", создал RoleBinding где ClusterRole admin присваивается SA "jane"
+ - Создал SA "ken" в ns "dev"
+ - Создал RoleBinding для sa "ken" в ns "dev"
