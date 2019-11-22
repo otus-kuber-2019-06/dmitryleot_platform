@@ -42,3 +42,12 @@ dmitryleot Platform repository
  - создал SA "jane" namespace "dev", создал RoleBinding где ClusterRole admin присваивается SA "jane"
  - Создал SA "ken" в ns "dev"
  - Создал RoleBinding для sa "ken" в ns "dev"
+# Выполнено ДЗ №3
+ - Опробованы readines\leveness probe
+ - Опробованы сущности Deployment\Service
+ - Переключил работу kubernetes на ipvs
+ - Балансировка на Л4 при помощи MetalLB
+ - Работа с Ingress
+ ## PR checklist:
+ - [X] Выставлен label с номером домашнего задания
+ - [X] Указан Assignees
